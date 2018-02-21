@@ -40,7 +40,9 @@ You will be working in pairs. We will leave the group selection up to you. Feel 
 
 Pair programming is a common industry practice where two developers work on the same project together. Typically, one person is the "driver" and the other is the "navigator". Throughout the lab you must switch roles.
 
-[Here is an explanation of a structured pair-programming approach.](https://www.versionone.com/agile-101/agile-software-programming-best-practices/pair-programming/).
+Here are two explanations of pair-programming, it's benefits and how to do it:
+1. [Pair Programming Considered Extremely Beneficial](https://content.pivotal.io/blog/pair-programming-considered-extremely-beneficial)
+2. [Agile Best Practices: Pair Programming](https://www.versionone.com/agile-101/agile-software-programming-best-practices/pair-programming/)
 
 ## Domains
 Pick from one of the following project ideas. If you and your partner would like to come up with your own domain, run it by an instructor first for sign-off.
@@ -72,8 +74,8 @@ Your project should have:
 * An `index.js` or `server.js` file for starting up your server
 * A `views/` directory for your handlebars views and a `layout.hbs`
 * A `controllers/` directory for each controller in your application
-* A `models/` directory for your Mongoose models
 * A connection to MongoDB through Mongoose
+* At least one Mongoose model
 * The ability to create (C) a record of your model (a new view)
 * The ability to read (R) a single record of your model (a show view)
 * The ability to read (R) multiple records of your model (a list view)
