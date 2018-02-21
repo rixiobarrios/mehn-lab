@@ -8,26 +8,30 @@ This is an open-ended, pair lab! You and your team mate should choose from the f
 
 ### Technical Requirements
 
-Your application should be use the MEHN stack. This includes:
-* Using **MongoDB** as your database and **Mongoose** as your ODM.
-* Using **Express** to handle HTTP requests and serve API endpoints.
-* Adding **Handlebars** for your views.
-* Using **Node** to run your Express server
+Your application should use the MEHN stack. This includes:
 
-Your app should have CRUD functionality for at least one model.
+* **MongoDB** as your database and **Mongoose** as your ODM.
+* **Express** to handle HTTP requests.
+* **Handlebars** for your views.
+* **Node** to run your Express server
+
+Your app should have full CRUD functionality for at least one model. Additionally, your application should include some basic styling and navigation throughout the app.
 
 ### Working Requirements
 
 * Both students ***must have commits on the repository***.
 * Tasks must be fairly divided between each student. Leave a comment in the submission indicating each student's responsibilities.
 
-### Bonus I
-Add a second model to your application, which is embedded under the first model.
+## Bonus I
+Add [Validation](http://mongoosejs.com/docs/validation.html) to the properties on your model.
 
 ### Bonus II
-Deploy your app to Heroku.
+Add a second model to your application, which is embedded under the first model. Read the documentation on [Subdocuments](http://mongoosejs.com/docs/subdocs.html).
 
 ### Bonus III
+Deploy your app to [ Heroku ](https://www.heroku.com/home).
+
+### Bonus IV
 Add authentication to your app with [Passport](http://www.passportjs.org).
 
 ## Pairs
@@ -41,7 +45,7 @@ Pair programming is a common industry practice where two developers work on the 
 ## Domains
 Pick from one of the following project ideas. If you and your partner would like to come up with your own domain, run it by an instructor first for sign-off.
 
-### HackerNews style link aggregation site
+### HackerNews-style link aggregation site
 Users can post news links to the site where they get aggregated on the home page. Each link should have a url, title, brief description and the date it was posted. The homepage of the site should list all the most recently posted links. As a bonus, add the ability to comment on links.
 
 ### StackOverflow-style Question/Answer page
@@ -53,6 +57,7 @@ Build an app that lets users create posts for their favorite recipes (title, des
 ## Lab Submission
 
 Please submit an issue to this repo by the time indicated on the course schedule with the following:
+
 * A link to your lab repo
 * A link to your deployed application (if you have one)
 * The names of your group members
@@ -61,6 +66,7 @@ Please submit an issue to this repo by the time indicated on the course schedule
 You will be graded with your partner and both receive the same score. It is really important that you have roughly the same number of commits to your project!
 
 Your project should have:
+
 * Semantic HTML and CSS that passes validation
 * A `package.json` file listing all the packages you used
 * An `index.js` or `server.js` file for starting up your server
@@ -68,6 +74,6 @@ Your project should have:
 * A `controllers/` directory for each controller in your application
 * A `models/` directory for your Mongoose models
 * A connection to MongoDB through Mongoose
-* The ability to create (C) a record of your model
+* The ability to create (C) a record of your model (a new view)
 * The ability to read (R) a single record of your model (a show view)
 * The ability to read (R) multiple records of your model (a list view)
