@@ -79,3 +79,5 @@ Your project should have:
 * The ability to create (C) a record of your model (a new view)
 * The ability to read (R) a single record of your model (a show view)
 * The ability to read (R) multiple records of your model (a list view)
+* The ability to update (U) a record
+* The ability to delete (D) a record
