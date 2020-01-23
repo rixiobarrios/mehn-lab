@@ -31,7 +31,7 @@ Add a second model to your application, which is embedded under the first model.
 ### Bonus III
 Deploy your app to [ Heroku ](https://www.heroku.com/home).
 
-### Bonus IV
+### Bonus IV (Beast Mode)
 Add authentication to your app with [Passport](http://www.passportjs.org).
 
 ## Pairs
