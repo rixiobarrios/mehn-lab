@@ -59,7 +59,6 @@ Build an app that lets users create posts for their favorite recipes (title, des
 ## Lab Submission
 
 Please submit an issue to this repo by the time indicated on the course schedule with the following:
-
 * A link to your lab repo
 * A link to your deployed application (if you have one)
 * The names of your group members
