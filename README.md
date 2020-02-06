@@ -2,6 +2,7 @@
 
 ## Prompt
 
+blah
 This is an open-ended, pair programming lab! You and your team mate should choose from the following domains or come up with your own. If you come up with your own, run it by an instructor first! It must, however, fulfill the following requirements:
 
 ## Requirements
